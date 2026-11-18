@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CloudLaunch helps teams build, ship and scale with confidence.">
+  <title>CloudLaunch | Build. Ship. Scale.</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-mark">C</span> CloudLaunch</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <p class="eyebrow">YOUR IDEAS, IN ORBIT</p>
+        <h1>Build boldly.<br><span>Launch confidently.</span></h1>
+        <p class="hero-copy">A simpler way to turn great ideas into reliable digital experiences. Start small, move fast and keep growing.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Get started <span aria-hidden="true">→</span></a>
+          <a class="button button-quiet" href="#features">Explore features</a>
+        </div>
+        <div class="hero-note"><span class="status-dot"></span> Made for teams that keep moving</div>
+      </div>
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+      <div class="hero-glow"></div>
+    </section>
+
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT YOU GET</p>
+          <h2>Everything you need<br>to move forward.</h2>
+          <p>Less friction between the first idea and the finished product.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">↗</div>
+            <h3>Move faster</h3>
+            <p>Keep your workflow clear and focused, so your team can spend more time creating.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">◇</div>
+            <h3>Stay reliable</h3>
+            <p>Build with consistency and make improvements with confidence at every step.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">◎</div>
+            <h3>Keep growing</h3>
+            <p>Start with what you need today and expand as your goals and ambitions grow.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="container about-panel">
+        <div>
+          <p class="eyebrow">A BETTER WAY TO BUILD</p>
+          <h2>Big progress starts<br>with one small step.</h2>
+        </div>
+        <p>CloudLaunch is a sample website built with plain HTML, CSS and JavaScript. It is lightweight, responsive and ready for you to customise as your first CI/CD deployment project.</p>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">READY WHEN YOU ARE</p>
+        <h2>Let's make something<br><span>worth launching.</span></h2>
+        <p>Change this section to add your own email address, business details or call to action.</p>
+        <a class="button button-primary" href="mailto:hello@example.com">Say hello <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home"><span class="brand-mark">C</span> CloudLaunch</a>
+      <p>© <span id="year"></span> CloudLaunch. Built to go further.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
